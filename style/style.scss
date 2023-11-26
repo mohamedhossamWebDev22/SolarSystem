@@ -1,0 +1,62 @@
+$c1 : #202020;
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html,body{
+  scroll-behavior: smooth;
+  
+  font-family: 'Roboto', sans-serif;
+
+  text-align: center;
+
+  background: $c1;
+  color: white;
+  h1{
+    font-family: cursive;
+    font-size: 30px;
+    
+    box-shadow: 0px 4px 8px #555;
+
+    padding: 1%;
+  }
+  .img{
+    border-radius: 15px;
+    box-shadow: 0px 0px 8px #555;
+
+    width: 250px;
+
+    margin-top: 2%;
+    &:hover{
+      box-shadow: 0px 4px 8px #555;
+    }
+  }
+
+  .btns{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+
+    margin: 1%;
+    .buttonImg{
+      box-shadow: 0px 0px 8px #555;
+
+      padding: 1%;
+      margin: 1%;
+      
+      border-radius: 15px;
+      
+      color: white;
+      
+      text-decoration: none;
+
+      &:hover{
+      box-shadow: 0px 4px 8px white;
+      }
+    }
+  }
+}
