@@ -9,7 +9,7 @@
     <title>Solar System|المجموعة الشمسية</title>
   </head>
   <body>
-    <h1>Solar System</h1>
+    <h1 class="title">Solar System</h1>
     <img class="img" src="./assets/1.gif" alt="solar system" />
 
     <br />
@@ -17,36 +17,43 @@
 
     <h2>choose a planet:</h2>
     <div class="btns">
-      <a href="" class="buttonImg" id="">
+      <a onclick="showInfo(0)" href="#result" class="buttonImg" id="">
         <img src="./assets/1.png" alt="img" />
         <p>Mercury</p>
       </a>
-      <a href="" class="buttonImg" id="">
+      <a onclick="showInfo(1)" href="#result" class="buttonImg" id="">
         <img src="./assets/2.png" alt="img" />
         <p>Venus</p> </a
-      ><a href="" class="buttonImg" id="">
+      ><a onclick="showInfo(2)" href="#result" class="buttonImg" id="">
         <img src="./assets/3.png" alt="img" />
         <p>Earth</p> </a
-      ><a href="" class="buttonImg" id="">
+      ><a onclick="showInfo(3)" href="#result" class="buttonImg" id="">
         <img src="./assets/4.png" alt="img" />
         <p>Mars</p>
       </a>
-      <a href="" class="buttonImg" id="">
+      <a onclick="showInfo(4)" href="#result" class="buttonImg" id="">
         <img src="./assets/5.png" alt="img" />
         <p>Jupiter</p>
       </a>
-      <a href="" class="buttonImg" id="">
+      <a onclick="showInfo(5)" href="#result" class="buttonImg" id="">
         <img src="./assets/6.png" alt="img" />
         <p>Saturn</p> </a
-      ><a href="" class="buttonImg" id="">
+      ><a onclick="showInfo(6)" href="#result" class="buttonImg" id="">
         <img src="./assets/7.png" alt="img" />
         <p>Uranus</p> </a
-      ><a href="" class="buttonImg" id="">
+      ><a onclick="showInfo(7)" href="#result" class="buttonImg" id="">
         <img src="./assets/8.png" alt="img" />
         <p>Neptune</p>
       </a>
     </div>
-    <div class="result"></div>
+    <div class="result">
+      <div class="screen">
+        <div id="title"></div>
+        <div id="result"></div>
+      </div>
+    </div>
     <footer>Made By Mohamed Hossam with ♥</footer>
+
+    <script src="./app.js"></script>
   </body>
 </html>

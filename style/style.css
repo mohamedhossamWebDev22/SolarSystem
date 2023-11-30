@@ -10,7 +10,7 @@ html, body {
   background: #202020;
   color: white;
 }
-html h1, body h1 {
+html .title, body .title {
   font-family: cursive;
   font-size: 30px;
   box-shadow: 0px 4px 8px #555;
@@ -41,4 +41,22 @@ html .btns .buttonImg, body .btns .buttonImg {
 }
 html .btns .buttonImg:hover, body .btns .buttonImg:hover {
   box-shadow: 0px 4px 8px white;
+}
+html .result, body .result {
+  border-block: 1px solid white;
+  margin-top: 5%;
+  padding: 1%;
+}
+html .result .screen, body .result .screen {
+  border-radius: 15px;
+  height: 80vh;
+  color: lightGreen;
+  background: rgb(0, 0, 25);
+  font-size: 20px;
+  font-family: monospace;
+  padding: 1%;
+}
+html .result .screen h1, body .result .screen h1 {
+  box-shadow: none;
+  font-family: monospace;
 }/*# sourceMappingURL=style.css.map */

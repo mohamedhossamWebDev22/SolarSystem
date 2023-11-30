@@ -1,4 +1,7 @@
 $c1 : #202020;
+$c2 : #545454;
+$c3 : rgb(0, 0, 25);
+$c4: lightGreen;
 
 
 *{
@@ -15,7 +18,7 @@ html,body{
 
   background: $c1;
   color: white;
-  h1{
+  .title{
     font-family: cursive;
     font-size: 30px;
     
@@ -56,6 +59,29 @@ html,body{
 
       &:hover{
       box-shadow: 0px 4px 8px white;
+      }
+    }
+  }
+  .result{
+    border-block: 1px solid white;
+
+    margin-top: 5%;
+    padding: 1%;
+    .screen{
+      border-radius: 15px;
+      
+      height: 80vh;
+
+      color: $c4;
+      background: $c3;
+
+      font-size: 20px;
+      font-family: monospace;
+
+      padding: 1%;
+      h1{
+        box-shadow: none;
+        font-family: monospace;
       }
     }
   }
